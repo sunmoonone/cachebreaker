@@ -1,4 +1,4 @@
-#!/c/python27/pythonw.exe
+#!/usr/bin/env python
 # encoding: utf-8
 '''
 cachebreaker -- add version arg to links to js,css in a html file
