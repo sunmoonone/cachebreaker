@@ -1,0 +1,34 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# windows
+desktop.ini
+
+# Maven
+log/
+target/
+lib/
+
+# vim
+*.swp
+
+# python
+*.py[cd]
+
+*~
+*#*#
+*.#*
+dist/
+logs/
