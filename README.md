@@ -1,5 +1,13 @@
 给html 页面里的 js，css链接添加版本号的小工具
 
+例子：
+
+```
+cachebreaker --include common.js,user/profile.js ~/work/website now
+
+cachebreaker -r --exclude common.js,user/profile.js ~/work/website 1.2.3
+```
+
 ```
 $ ./cachebreaker -h
 usage: cachebreaker [-h] [-v] [-e ENCODING] [-r] [--include INCLUDE]
