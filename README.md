@@ -10,8 +10,6 @@ cachebreaker -r --exclude common.js,user/profile.js ~/work/website 1.2.3
 
 index.html
 
-Before:
-
 ```
     <link href="img/minLogo.png" rel="shortcut icon" />
     <link rel="stylesheet" href="css/index.css">
@@ -20,7 +18,7 @@ Before:
     <link rel="stylesheet" href="css/ban.css">
 ```
 
-After executing `/cachebreaker ~/workspace/news-site now`
+After executing `./cachebreaker ~/workspace/news-site now`
 
 ```
     <link href="img/minLogo.png" rel="shortcut icon" />
@@ -30,7 +28,7 @@ After executing `/cachebreaker ~/workspace/news-site now`
     <link rel="stylesheet" href="css/ban.css?v=1477898220">
 ```
 
-After executing `/cachebreaker ~/workspace/news-site 1.2.1`
+After executing `./cachebreaker ~/workspace/news-site 1.2.1`
 
 ```
     <link rel="stylesheet" href="css/index.css?v=1.2.1">
