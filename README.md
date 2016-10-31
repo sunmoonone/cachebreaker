@@ -31,7 +31,7 @@ optional arguments:
                         charset encoding of file. Default: utf8
   -r, --recursive       parse files recursively
   --include INCLUDE     file names separate by comma, only parse links
-                        specified
-  --exclude EXCLUDE     file names separate by comma, skip links specified
+                        specified by this options
+  --exclude EXCLUDE     file names separate by comma, skip links specified by this option
 
 ```

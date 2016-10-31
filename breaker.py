@@ -133,8 +133,8 @@ USAGE
         parser.add_argument('-v', '--version', action='version', version=program_version_message)
         parser.add_argument("-e", "--encoding",default="utf8", dest="encoding", help="charset encoding of file. Default: utf8")
         parser.add_argument("-r", "--recursive",default=False, action="store_true", dest="recursive", help="parse files recursively")
-        parser.add_argument("--include", dest="include", help="file names separate by comma, only parse links specified")
-        parser.add_argument("--exclude", dest="exclude", help="file names separate by comma, skip links specified")
+        parser.add_argument("--include", dest="include", help="file names separate by comma, only parse links specified by this option")
+        parser.add_argument("--exclude", dest="exclude", help="file names separate by comma, skip links specified by this option")
         parser.add_argument(dest="dir", help="project directory", metavar="dir")
         parser.add_argument(dest="ver", help="version number. if ver is now then will use timestamp as the value of ver", metavar="ver")
 
