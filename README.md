@@ -30,6 +30,15 @@ After executing `/cachebreaker ~/workspace/news-site now`
     <link rel="stylesheet" href="css/ban.css?v=1477898220">
 ```
 
+After executing `/cachebreaker ~/workspace/news-site 1.2.1`
+
+```
+    <link rel="stylesheet" href="css/index.css?v=1.2.1">
+    <link rel="stylesheet" href="data/data.css?v=1.2.1">
+    <link rel="stylesheet" href="data/reset.css?v=1.2.1">
+    <link rel="stylesheet" href="css/ban.css?v=1.2.1">
+```
+
 ```
 $ ./cachebreaker -h
 usage: cachebreaker [-h] [-v] [-e ENCODING] [-r] [--include INCLUDE]
